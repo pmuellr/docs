@@ -38,6 +38,12 @@ class Sidebar extends Component {
               display: block;
             }
           }
+
+          @media print {
+            .sidebar {
+              display: none;
+            }
+          }
         `}</style>
       </aside>
     )
