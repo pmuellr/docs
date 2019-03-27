@@ -20,6 +20,12 @@ const Header = ({ className, children }) => (
         display: flex;
         height: 100%;
       }
+
+      @media print {
+        header {
+          display: none;
+        }
+      }
     `}</style>
   </header>
 )

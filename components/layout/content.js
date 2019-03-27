@@ -11,7 +11,7 @@ const Content = ({ children }) => (
         padding-bottom: 128px;
       }
 
-      @media screen and (max-width: 950px) {
+      @media print, screen and (max-width: 950px) {
         div {
           padding-left: 0;
         }
